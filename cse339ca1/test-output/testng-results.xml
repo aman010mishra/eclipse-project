@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-21T14:03:33 IST" name="Default suite" finished-at="2025-11-21T14:07:24 IST" duration-ms="230710">
+    <groups>
+    </groups>
+    <test started-at="2025-11-21T14:03:33 IST" name="Default test" finished-at="2025-11-21T14:07:24 IST" duration-ms="230710">
+      <class name="cse339ca1.ClassFile">
+        <test-method is-config="true" signature="setup()[pri:0, instance:cse339ca1.ClassFile@16d04d3d]" started-at="2025-11-21T14:03:33 IST" name="setup" finished-at="2025-11-21T14:07:23 IST" duration-ms="230452" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Aman\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install -r --no-incremental C:\\Users\\Aman\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v7.7.0.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability 
+Host info: host: 'DESKTOP-2BUJPSL', ip: '10.149.164.225'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\Aman\Downloads\Cal..., appium:automationName: UiAutomator2, appium:deviceName: Medium_Phone_API_36.0, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 3600, appium:skipDeviceInitialization: true, appium:uiautomator2ServerLaunchTimeout: 90000, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\Aman\Downloads\Cal..., appium:automationName: UiAutomator2, appium:deviceName: Medium_Phone_API_36.0, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 3600, appium:skipDeviceInitialization: true, appium:uiautomator2ServerLaunchTimeout: 90000, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Aman\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install -r --no-incremental C:\\Users\\Aman\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v7.7.0.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability 
+Host info: host: 'DESKTOP-2BUJPSL', ip: '10.149.164.225'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\Aman\Downloads\Cal..., appium:automationName: UiAutomator2, appium:deviceName: Medium_Phone_API_36.0, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 3600, appium:skipDeviceInitialization: true, appium:uiautomator2ServerLaunchTimeout: 90000, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\Aman\Downloads\Cal..., appium:automationName: UiAutomator2, appium:deviceName: Medium_Phone_API_36.0, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 3600, appium:skipDeviceInitialization: true, appium:uiautomator2ServerLaunchTimeout: 90000, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:270)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:91)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:103)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+at cse339ca1.ClassFile.setup(ClassFile.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dummyTest()[pri:0, instance:cse339ca1.ClassFile@16d04d3d]" started-at="2025-11-21T14:07:24 IST" name="dummyTest" finished-at="2025-11-21T14:07:24 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Aman\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install -r --no-incremental C:\\Users\\Aman\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v7.7.0.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability 
+Host info: host: 'DESKTOP-2BUJPSL', ip: '10.149.164.225'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\Aman\Downloads\Cal..., appium:automationName: UiAutomator2, appium:deviceName: Medium_Phone_API_36.0, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 3600, appium:skipDeviceInitialization: true, appium:uiautomator2ServerLaunchTimeout: 90000, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\Aman\Downloads\Cal..., appium:automationName: UiAutomator2, appium:deviceName: Medium_Phone_API_36.0, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 3600, appium:skipDeviceInitialization: true, appium:uiautomator2ServerLaunchTimeout: 90000, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Aman\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install -r --no-incremental C:\\Users\\Aman\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v7.7.0.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability 
+Host info: host: 'DESKTOP-2BUJPSL', ip: '10.149.164.225'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\Aman\Downloads\Cal..., appium:automationName: UiAutomator2, appium:deviceName: Medium_Phone_API_36.0, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 3600, appium:skipDeviceInitialization: true, appium:uiautomator2ServerLaunchTimeout: 90000, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\Aman\Downloads\Cal..., appium:automationName: UiAutomator2, appium:deviceName: Medium_Phone_API_36.0, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 3600, appium:skipDeviceInitialization: true, appium:uiautomator2ServerLaunchTimeout: 90000, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:270)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:91)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:103)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+at cse339ca1.ClassFile.setup(ClassFile.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:cse339ca1.ClassFile@16d04d3d]" started-at="2025-11-21T14:07:24 IST" name="teardown" finished-at="2025-11-21T14:07:24 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- cse339ca1.ClassFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
